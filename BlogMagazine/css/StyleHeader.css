@@ -1,0 +1,474 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header,  menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #49607c;
+}
+
+.page{
+
+}
+
+.Header{
+
+}
+
+
+.MenuBar{
+    width: 930px;
+    height: 60px;
+    background: white;
+    margin:10px auto;
+    overflow: hidden;
+
+
+
+}
+.MenuButton{
+    width: 60px;
+    height: 60px;
+    background: #56ccc8;
+
+
+}
+.MenuButton img{
+    margin: 2px 7px;
+}
+.menubarITEMS ul{
+ float: left;
+    margin: 0;
+}
+
+.menubarITEMS li{
+    font: 12pt sans-serif;
+    display: inline;
+    height: 50px;
+    width: 60px;
+    float: left;
+    position: relative;
+}
+
+.menubarITEMS li a{
+    margin-left: 17px;
+   padding-top: 20px;
+    color: black;
+    position: absolute;
+
+}
+.menubarITEMS li a:hover{
+    color: #56ccc8;
+}
+
+
+
+
+.SItems{
+    float: right;
+}
+
+.SItems li{
+display: inline;
+height: 60px;
+    margin-left: 12px;
+}
+
+.SItems li img{
+    padding-top: 20px;
+}
+.searchB{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    border-right: solid 2px #b8b8b8;
+
+}
+
+.loginB{
+    margin: 0px;
+    width: 60px;
+    height: 60px;
+   text-align: center;
+    display: inline-block;
+    border-left: solid 2px #b8b8b8;
+}
+
+.menuBlock{
+    margin: 14px auto;
+    background: #49607c;
+    height:675px;
+    width: 930px;
+    position: relative;
+}
+
+.block1{
+    position: relative;
+}
+
+
+.coll1{
+    width: 225px;
+    height: 675px;
+    background: #49607c;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+}
+.coll2{
+
+    display: inline-block;
+    position: absolute;
+   left: 225px;
+}
+.nav ul{
+    background: white;
+}
+
+.nav ul li{
+    width: 225px;
+    height: 65px;
+    border-bottom: solid 1px black;
+
+
+}
+.nav ul li a,img{
+    padding-left: 10px;
+    padding-top: 18px;
+    font: 14pt sans-serif;
+}
+
+
+.nav ul li a{
+    margin: 15px;
+    color: black;
+}
+
+
+
+.contacts{
+  background: #c5cdd1;
+    width: 225px;
+    height: 272px;
+}
+
+.contacts li{
+    height: 70px;
+    width: 225px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.contacts li a{
+color: white;
+    padding-top: 8px;
+}
+
+
+.contacts li img{
+    display: inline-block;
+    float: left;
+    padding-top: 0px;
+}
+
+
+.coll2-item1{
+    width: 260px;
+    height: 159px;
+    background: #152840;
+    border-bottom: solid 1px #49607c;
+}
+.coll2-item2{
+    width: 260px;
+    height: 189px;
+    background: #152840;
+    border-bottom: solid 1px #49607c;
+}
+
+.coll2-item3{
+    width: 260px;
+    height: 159px;
+    background: #152840;
+    border-bottom: solid 1px #49607c;
+}
+.coll2-item4{
+    width: 260px;
+    height: 159px;
+    background: #152840;
+    border-bottom: solid 1px #49607c;
+}
+.coll2-item1:hover{
+    background: #263a54;
+}
+.coll2-item2:hover{
+    background: #263a54;
+}
+.coll2-item3:hover{
+    background: #263a54;
+}
+.coll2-item4:hover{
+    background: #263a54;
+}
+
+
+
+
+
+
+.coll2-item1 li{
+    height: 30px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.coll2-item1 img{
+    float: right;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.allLink { color: white;}
+.allLink:hover { color: #56ccc8;}
+
+
+
+.FirstItem{
+    color: #56ccc8;
+}
+
+.coll2-item2 li{
+    height: 30px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.coll2-item2 img{
+    float: right;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.coll2-item3 li{
+    height: 30px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.coll2-item3 img{
+    float: right;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.coll2-item4 li{
+    height: 30px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.coll2-item4 img{
+    float: right;
+    padding-left: 0px;
+    padding-top: 0px;
+
+}
+
+.block2{
+    position: absolute;
+    display: inline-block;
+    left: 500px;
+    margin-top: 0px;
+}
+
+.TopBlock{
+    position: relative;
+    display: inline-flex;
+
+}
+
+.SocialBlock{
+    width: 210px;
+    height: 314px;
+    background: white;
+     position: relative;
+    
+}
+.SocialBlock li{
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 2px;
+}
+
+
+.SocialBlock a{
+    padding: 28px 17px;
+  position: absolute;
+}
+
+.FacebookBlock{
+    margin-left: 10px;
+
+    width:210px ;
+    height:150px ;
+    background: #4d6baa;
+    position: relative;
+
+}
+.FacebookBlock img{
+margin-left: 10px;
+}
+
+#countF{
+    float: left;
+    display: inline;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    bottom:10px;
+    color: white;
+
+}
+
+#followF{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    float: right;
+    bottom: 10px;
+    left: 115px;
+    color: white;
+}
+#followF img{
+    position: absolute;
+    left: 37px;
+    top: -25px;
+}
+
+.TwiterBlock{
+    margin-left: 10px;
+margin-top: 10px;
+    width:210px ;
+    height:154px ;
+    background: #4fc6f8;
+    position: relative;
+
+}
+.TwiterBlock img{
+    margin-left: 10px;
+}
+
+#countT{
+    float: left;
+    display: inline;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    bottom:10px;
+    color: white;
+
+}
+
+#followT{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    float: right;
+    bottom: 10px;
+    left: 115px;
+    color: white;
+}
+#followT img{
+    position: absolute;
+    left: 37px;
+    top: -25px;
+}
+
+.signIn{
+    width: 430px;
+    height: 165px;
+    margin-top: 13px;
+    background: white;
+    text-align: center;
+}
+
+.signIn h1{
+    padding: 21px;
+    font: 18pt sans-serif;
+}
+
+
+.Mlogo li{
+margin-left: 10px;
+    display: inline-block;
+}
+
+
+.newsLetter{
+    width: 430px;
+    height: 165px;
+    margin-top: 13px;
+    background: white;
+    text-align: center;
+}
+
+
+.newsLetter h1{
+    padding: 21px;
+    font: 18pt sans-serif;
+}
+
+
+.newsLetter .nLMail{
+    margin-top: 10px;  }
+
+
