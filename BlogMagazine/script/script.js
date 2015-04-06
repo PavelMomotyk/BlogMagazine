@@ -65,7 +65,8 @@ $(document).ready(function(){
         $('.NavMenu6').css("background", "white");
         $('.NavMenu6 a').css("color", "black");
     });
-$('.social1').hover(function(){
+
+    $('.social1').hover(function(){
     $('.social1 a').css("color", "#56ccc8");
     $('.social1 img').attr("src","Image/rss/facebook_icon_active.png");
 }, function(){
@@ -93,7 +94,6 @@ $('.social1').hover(function(){
         $('.social4 a').css("color", "black");
         $('.social4 img').attr("src","Image/rss/rss_icon_normal.png");
     });
-
     $('.social5').hover(function(){
         $('.social5 a').css("color", "#56ccc8");
         $('.social5 img').attr("src","Image/rss/pinterest_icon_active.png");
@@ -110,6 +110,7 @@ $('.social1').hover(function(){
     $(".TwiterBlock").click(function () {
         $(".FacebookBlock").slideToggle("slow");
     });
+
     $('#mailText').blur(function() {
         if($(this).val() != '') {
             var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
@@ -127,10 +128,35 @@ $('.social1').hover(function(){
     });
 
     $('.bxslider').bxSlider();
+
     $('.videoPost1').hover(function(){
         $('.video').css("display","inherit");
     },function(){
         $('.video').css("display","none");
     });
+
+    $('.read_more').click( function(event){
+        event.preventDefault();
+        $('#overlay').fadeIn(400, //
+            function(){
+                $('#modal_form')
+                    .css('display', 'block')
+                    .animate({opacity: 1, top: '30%'}, 200);
+            });
+    });
+    $('#modal_close, #overlay').click( function(){
+        $('#modal_form')
+            .animate({opacity: 0, top: '45%'}, 200,
+            function(){
+                $(this).css('display', 'none');
+                $('#overlay').fadeOut(400);
+            }
+        );
+    });
+
+
+
+
+
 
 });
