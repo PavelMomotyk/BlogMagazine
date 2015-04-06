@@ -143,6 +143,7 @@ height: 60px;
     height:675px;
     width: 930px;
     position: relative;
+    display: none;
 }
 
 .block1{
@@ -163,6 +164,7 @@ height: 60px;
     display: inline-block;
     position: absolute;
    left: 225px;
+    display: none;
 }
 .nav ul{
     background: white;
