@@ -1,0 +1,97 @@
+.Middle{
+    margin: 45px auto;
+position: relative;
+}
+
+.post1{
+    margin: 0 auto;
+    width: 930px;
+    height: 300px;
+
+
+
+}
+
+.PostT{
+    width: 315px;
+    height: 300px;
+    display: inline-block;
+position: relative;
+    background: #ffffff;
+}
+
+.videoPost1{
+    width: 615px;
+    height: 300px;
+float: right;
+    background: #616161;
+
+}
+.videoMenu{
+    width: 110px;
+    height: 300px;
+    display: inline-block;
+    background: #152840;
+text-align: center;
+}
+.videoMenu img{
+    margin-top:10px;
+    padding-left: 0px;
+}
+.videoMenu a{
+    margin-top: 8px;
+    display: block;
+    color:#ffffff;
+}
+
+
+#playB{
+    padding-left: 200px;
+    display: inline-block;
+    padding-bottom: 75px;
+}
+
+.video{
+    display: none;
+}
+
+
+.H1Text{
+    top: 32px;
+    padding-left: 45px;
+    padding-right: 15px;
+    font: 34px sans-serif;
+    position: absolute;
+
+}
+.time{
+    padding-top: 110px;
+    padding-left: 45px;
+
+    padding-right: 10px;
+    font: 12px sans-serif;
+}
+
+.time i{
+ font-family: cursive;
+}
+
+.information{
+    padding-top: 15px;
+    padding-left: 45px;
+
+    padding-right: 10px;
+    font: 20px sans-serif;
+}
+
+.videoIco{
+    width: 40px;
+    height: 40px;
+    background: red;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+}
+.videoIco img{
+    padding-top: 10px;
+}

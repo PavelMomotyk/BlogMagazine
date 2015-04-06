@@ -2,6 +2,11 @@
  * Created by prog on 05.04.15.
  */
 
+
+
+
+
+
 $(document).ready(function(){
     $('.NavMenu1' ).hover(function(){
         $('.NavMenu1').css("background", "#56ccc8");
@@ -105,8 +110,27 @@ $('.social1').hover(function(){
     $(".TwiterBlock").click(function () {
         $(".FacebookBlock").slideToggle("slow");
     });
+    $('#mailText').blur(function() {
+        if($(this).val() != '') {
+            var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+            if(pattern.test($(this).val())){
+                $(this).css({'border' : '1px solid green'});
+
+            } else {
+                $(this).css({'border' : '1px solid red'});
+
+            }
+        } else {
 
 
+        }
+    });
 
+    $('.bxslider').bxSlider();
+    $('.videoPost1').hover(function(){
+        $('.video').css("display","inherit");
+    },function(){
+        $('.video').css("display","none");
+    });
 
 });

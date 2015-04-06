@@ -3,7 +3,10 @@
 <head lang="en">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/StyleHeader.css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css"/>
+    <link rel="stylesheet" href="css/MidleStyle.css"/>
     <script src="script/jquery-1.11.2.js"></script>
+    <script src="script/jquery.bxslider.js"></script>
     <script src="script/script.js"></script>
 
     <title></title>
@@ -148,8 +151,9 @@
                 <div class="nLH1"><h1>Join is Newsletter</h1></div>
                 <div class="nLMore"><p>Sign up for our personalized daily newsletter   </p> </div>
                 <div class="nLMail">
-                    <form class="">
-                        <input id="mailText" type="text" />
+                    <form class="" method="post">
+                        <input id="mailText" placeholder="Enter email address" type="text" />
+                        <span id="valid"></span>
                         <input id="buttomS" type="submit" value="SIGN UP" />
                     </form>
 
@@ -159,10 +163,43 @@
     </div>
 </div>
 </div>
+    <div class="Slider">
+    <ul class="bxslider">
+        <li><img src="Image/1.jpg" /></li>
+        <li><img src="Image/2.jpg" /></li>
+        <li><img src="Image/3.jpg" /></li>
+        <li><img src="Image/4.jpg" /></li>
 
+    </ul>
+    <div class="someText"> <p>Wondering how bxSlider was made?<br>
+        Click here to see the annotated source code<br> with a description of the coding process </p></div>
 
 </div>
+    <div class="Middle">
+    <div class="post1">
+        <div class="PostT">
+            <div class="videoIco">
+            <img src="Image/video.png" alt=""/>
+        </div>
+<p class="H1Text">Best story you heve ever heard</p>
+ <p class="time"><i>24 minutes ago</i></p>
+            <p class="information"> Lorem Ipsum is simply dummy text of the printing snd typesetting industry/ Lorem ipsum has been the industry's some text about anythink</p>
+        </div>
+        <div class="videoPost1">
+            <div class="video">
+            <div class="videoMenu">
+                <ul>
+                    <li><img src="Image/heart.png" alt=""/> <a href="">Like</a></li>
+                    <li><img src="Image/clock.png" alt=""/> <a href="">Later</a></li>
+                    <li><img src="Image/share.png" alt=""/> <a href="">Share</a></li>
+                </ul>
+            </div>
+            <img id="playB" src="Image/play_button.png" alt=""/>
 
+        </div>
+    </div>
+    </div>
 
+</div>
 </body>
 </html>
